@@ -1,0 +1,11 @@
+:root {
+  --cor-fundo: #eef5f1;
+  --cor-texto: #102a43;
+  --cor-texto-suave: #486581;
+  --cor-primaria: #1e5aa8;
+  --cor-primaria-forte: #123a6d;
+  --cor-sucesso: #1f8f66;
+  --cor-borda: #cfdce6;
+  --sombra-suave: 0 8px 24px rgba(18, 58, 109, 0.06);
+  --sombra-media: 0 18px 48px rgba(18, 58, 109, 0.15);
+}
