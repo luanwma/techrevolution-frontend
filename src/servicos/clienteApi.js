@@ -1,7 +1,7 @@
 import axios from "axios";
 import { obterTokenDaSessao } from "../contexto/AutenticacaoContexto";
 
-const baseURL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const baseURL = import.meta.env.VITE_API_URL || "https://backenddeploy-gmpz2g.fly.dev/";
 const rotasPublicas = new Set(["/api/auth/login", "/api/gerente/registro"]);
 
 export const clienteApi = axios.create({
